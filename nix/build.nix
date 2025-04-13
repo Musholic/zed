@@ -27,6 +27,7 @@
   libgit2,
   libglvnd,
   libxkbcommon,
+  libX11,
   livekit-libwebrtc,
   nodejs_22,
   openssl,
@@ -130,6 +131,7 @@ let
           # should make it a separate derivation/flake output
           # see https://crane.dev/examples/cross-musl.html
           libgit2
+          libX11
           openssl
           sqlite
           zlib
